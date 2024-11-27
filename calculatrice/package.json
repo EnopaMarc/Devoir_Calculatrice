@@ -1,5 +1,5 @@
 {
-    "name": "TP_TYPESCIPT_COMBINAISON",
+    "name": "CALCULATRICE",
     "version": "1.0",
     "scripts":{
         "start": "live-server"
