@@ -1,1 +1,8 @@
+{
+    "name": "TP_TYPESCIPT_COMBINAISON",
+    "version": "1.0",
+    "scripts":{
+        "start": "live-server"
+    }
 
+}
