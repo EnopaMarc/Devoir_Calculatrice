@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculatrice1.0</title>
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="display" id="result"></div>
+        <div class="display1" id="heure"></div>
+        <div>
+            <button class="button" id="clr" onclick="clr()" value="clr">clr</button>
+            <button class="button" id="del" onclick="del()" value="del">del</button>
+            <button class="button" id="%" onclick="mod()" value="%">%</button>
+            <button class="button" id="/" onclick="div()" value="/">/</button>
+        </div>
+        <div>
+            <button class="button" id="7" onclick="nb7()" value="7">7</button>
+            <button class="button" id="8" onclick="nb8()" value="8">8</button>
+            <button class="button" id="9" onclick="nb9()" value="9">9</button>
+            <button class="button" id="*" onclick="multiplication()" value="*">*</button>
+        </div>
+        <div>
+            <button class="button" id="4" onclick="nb4()" value="4">4</button>
+            <button class="button" id="5" onclick="nb5()" value="5">5</button>
+            <button class="button" id="6" onclick="nb6()" value="6">6</button>
+            <button class="button" id="-" onclick="soustraction()" value="-">-</button>
+        </div>
+        <div>
+            <button class="button" id="1" onclick="nb1()" value="1">1</button>
+            <button class="button" id="2" onclick="nb2()" value="2">2</button>
+            <button class="button" id="3" onclick="nb3()" value="3">3</button>
+            <button class="button" id="+" onclick="add()" value="+">+</button>
+            <div id="section" style="display: none;">
+
+                <button class="button" id="sin" onclick="sin()" value="sin">sin</button>
+                <button class="button" id="cos" onclick="cos()" value="cos">cos</button>
+                <button class="button" id="tan" onclick="tan()" value="tan">tan</button>
+                <button class="button" id="ln" onclick="ln()" value="ln">ln</button>
+
+                <button class="button" id="puissance" onclick="puissance()" value="^">^</button>
+                <button class="button" id="exp" onclick="exp()" value="exp">exp</button>
+                <button class="button" id="racine" onclick="racine()" value="rac">rac</button>
+                <button class="button" id="fac" onclick="factorielle()" value="fac">fact</button>
+
+                <button class="button" id="base2" onclick="baseb()" value="B2">B2</button>
+                <button class="button" id="base10" onclick="based()" value="B10">B10</button>
+                <button class="button" id="base16" onclick="baseh()" value="B16">B16</button>
+                     
+            </div>
+        </div>
+        <div>
+            <button class="button" id="0" onclick="nb0()" value="0">0</button>
+            <button class="button equals" id="=" onclick="egual()">=</button>
+            <button class="button" id="bouton">Sc</button>
+            
+        </div>
+
+    </div>
+    <script src="ts-built/script.js"></script>
+</body>
+</html>
